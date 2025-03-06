@@ -1,0 +1,16 @@
+This directory contains the following image files:
+
+1. logo.png - The 96 in Reverse podcast logo
+2. hosts/host1.jpg - Placeholder for Host 1 photo
+3. hosts/host2.jpg - Placeholder for Host 2 photo
+4. hosts/host3.jpg - Placeholder for Host 3 photo
+5. hosts/host4.jpg - Placeholder for Host 4 photo
+
+To update these images:
+1. Replace logo.png with your actual podcast logo
+2. Replace each host image with the actual photo of the corresponding host
+3. Make sure to keep the same filenames to maintain compatibility with the website
+
+Recommended image sizes:
+- Logo: At least 500x500 pixels
+- Host photos: Square images, at least 300x300 pixels
