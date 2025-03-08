@@ -1,0 +1,51 @@
+/* 
+   96 in Reverse Podcast Website Styles
+   Color Scheme:
+   - #e2e8f2 (light blue-gray)
+   - #f5793b (vibrant orange - accent color)
+   - #eef1f7 (very light blue-gray)
+   - #252a34 (dark blue-gray - primary background)
+*/
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #252a34;
+  --secondary-bg: #1a1e25;
+  --light-bg: #e2e8f2;
+  --very-light-bg: #eef1f7;
+  --accent: #f5793b;
+  --text-light: #eef1f7;
+  --text-dark: #252a34;
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--primary-bg);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1rem;
+}

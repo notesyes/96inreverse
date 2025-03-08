@@ -1,0 +1,32 @@
+{
+  "name": "96-inreverse",
+  "version": "1.0.0",
+  "description": "This is the official website for the \"96 in Reverse\" podcast. The website features a modern, futuristic design with sections for podcast episodes, host information, about the show, and social media links.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notesyes/96inreverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notesyes/96inreverse/issues"
+  },
+  "homepage": "https://github.com/notesyes/96inreverse#readme",
+  "dependencies": {
+    "@types/node": "^22.13.9",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.8.2"
+  }
+}
