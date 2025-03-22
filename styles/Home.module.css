@@ -63,6 +63,17 @@
   font-size: 0.7rem;
 }
 
+/* Image Logo Styles */
+.imageLogo {
+  height: 50px;
+  width: auto;
+  transition: var(--transition);
+}
+
+.logo:hover .imageLogo {
+  transform: scale(1.05);
+}
+
 .header nav ul {
   display: flex;
   list-style: none;
@@ -157,6 +168,19 @@
 .heroTextLogo .logoText {
   font-size: 1.2rem;
   letter-spacing: 4px;
+}
+
+.heroLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  animation: pulse 3s infinite alternate;
+}
+
+.heroImageLogo {
+  width: 200px;
+  height: auto;
 }
 
 @keyframes pulse {
@@ -475,6 +499,16 @@
 
 .footerLogo .logoText {
   font-size: 0.6rem;
+}
+
+.footerImageLogo {
+  height: 40px;
+  width: auto;
+  transition: var(--transition);
+}
+
+.footerLogo:hover .footerImageLogo {
+  transform: scale(1.05);
 }
 
 .footerInfo {

@@ -18,10 +18,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <div className={styles.textLogo}>
-              <span className={styles.logoNumber}>96</span>
-              <span className={styles.logoText}>IN REVERSE</span>
-            </div>
+            <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.imageLogo} />
           </div>
           <nav>
             <ul>
@@ -39,9 +36,8 @@ export default function Home() {
         <section id="home" className={styles.hero}>
           <div className={styles.container}>
             <div className={styles.heroContent}>
-              <div className={styles.heroTextLogo}>
-                <span className={styles.logoNumber}>96</span>
-                <span className={styles.logoText}>IN REVERSE</span>
+              <div className={styles.heroLogo}>
+                <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.heroImageLogo} />
               </div>
               <h1>96 IN REVERSE</h1>
               <p className={styles.tagline}>Conversations that turn perspective upside down</p>
@@ -168,10 +164,7 @@ other (motivational speaking), cause I feel i can reach so many people with what
         <div className={styles.container}>
           <div className={styles.footerContent}>
             <div className={styles.footerLogo}>
-              <div className={styles.textLogo}>
-                <span className={styles.logoNumber}>96</span>
-                <span className={styles.logoText}>IN REVERSE</span>
-              </div>
+              <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.footerImageLogo} />
             </div>
             <div className={styles.footerInfo}>
               <p>&copy; 2025 96 in Reverse. All Rights Reserved.</p>
