@@ -18,7 +18,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.imageLogo} />
+            <img src="/96inreverse.png" alt="96 in Reverse Logo" className={styles.imageLogo} />
           </div>
           <nav>
             <ul>
@@ -37,7 +37,7 @@ export default function Home() {
           <div className={styles.container}>
             <div className={styles.heroContent}>
               <div className={styles.heroLogo}>
-                <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.heroImageLogo} />
+                <img src="/96inreverse.png" alt="96 in Reverse Logo" className={styles.heroImageLogo} />
               </div>
               <p className={styles.tagline}>Conversations that turn perspective upside down</p>
             </div>
@@ -163,7 +163,7 @@ other (motivational speaking), cause I feel i can reach so many people with what
         <div className={styles.container}>
           <div className={styles.footerContent}>
             <div className={styles.footerLogo}>
-              <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.footerImageLogo} />
+              <img src="/96inreverse.png" alt="96 in Reverse Logo" className={styles.footerImageLogo} />
             </div>
             <div className={styles.footerInfo}>
               <p>&copy; 2025 96 in Reverse. All Rights Reserved.</p>
