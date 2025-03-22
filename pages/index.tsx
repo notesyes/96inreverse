@@ -107,7 +107,8 @@ export default function Home() {
                   </div>
                 </div>
                 <h3>Cedrick</h3>
-                <p>Host bio goes here. Replace this text with the host's summary. This section should include a brief description of the host, their background, interests, and role in the podcast.</p>
+                <p>Hi my name is Cedrick, I am first of eight sibling and we all grew up in Daytona Beach Florida. My hobbies are singing, dancing, plants and exorcising. One hobby that I a coming into is the ability to speak in front of
+other (motivational speaking), cause I feel i can reach so many people with whatever issue. Some of things are the reasons why I connected with peter to all things across the board being and accepting people in life is the start of healing each other. I really think 96 in reverse is safe space for people like Peter and myself to teach and learn about people and their perspective in life.</p>
               </div>
               
               {/* HOST 3 */}
