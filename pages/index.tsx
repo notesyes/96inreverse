@@ -39,7 +39,6 @@ export default function Home() {
               <div className={styles.heroLogo}>
                 <img src="/images/logo.png" alt="96 in Reverse Logo" className={styles.heroImageLogo} />
               </div>
-              <h1>96 IN REVERSE</h1>
               <p className={styles.tagline}>Conversations that turn perspective upside down</p>
             </div>
           </div>
