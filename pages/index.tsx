@@ -76,7 +76,7 @@ export default function Home() {
               <div className={styles.episodeCard}>
                 <div className={styles.episodeNumber}>02</div>
                 <h3>Young Relationships & Personal Growth</h3>
-                <p>In this episode, Peter and Cedric welcome guests Kayden and Yesli to discuss the dynamics of young relationships. They explore how Kayden and Yesli met, the challenges of dating in high school, and the unique aspects of their relationship, including age differences and personal experiences. The conversation also touches on the importance of emotional connections versus physical attraction in relationships, providing insights into the complexities of love and dating at a young age. In this conversation, the speakers delve into the complexities of relationships, discussing personal experiences and lessons learned. They explore themes of self-worth, the importance of understanding backgrounds, and the value of women in society.</p>
+                <p>In this episode, Peter and Cedrick welcome guests Kayden and Yesli to discuss the dynamics of young relationships. They explore how Kayden and Yesli met, the challenges of dating in high school, and the unique aspects of their relationship, including age differences and personal experiences. The conversation also touches on the importance of emotional connections versus physical attraction in relationships, providing insights into the complexities of love and dating at a young age. In this conversation, the speakers delve into the complexities of relationships, discussing personal experiences and lessons learned. They explore themes of self-worth, the importance of understanding backgrounds, and the value of women in society.</p>
                 <a href="#" className={styles.listenBtn}>Listen Now</a>
               </div>
             </div>
@@ -92,10 +92,10 @@ export default function Home() {
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
                   <div className={styles.hostPlaceholder}>
-                    <span>Host 1</span>
+                    <span>Peter</span>
                   </div>
                 </div>
-                <h3>Host Name</h3>
+                <h3>Peter</h3>
                 <p>Host bio goes here. Replace this text with the host's summary. This section should include a brief description of the host, their background, interests, and role in the podcast.</p>
               </div>
               
@@ -103,10 +103,10 @@ export default function Home() {
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
                   <div className={styles.hostPlaceholder}>
-                    <span>Host 2</span>
+                    <span>Cedrick</span>
                   </div>
                 </div>
-                <h3>Host Name</h3>
+                <h3>Cedrick</h3>
                 <p>Host bio goes here. Replace this text with the host's summary. This section should include a brief description of the host, their background, interests, and role in the podcast.</p>
               </div>
               
@@ -114,10 +114,10 @@ export default function Home() {
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
                   <div className={styles.hostPlaceholder}>
-                    <span>Host 3</span>
+                    <span>Nate</span>
                   </div>
                 </div>
-                <h3>Host Name</h3>
+                <h3>Nate</h3>
                 <p>Host bio goes here. Replace this text with the host's summary. This section should include a brief description of the host, their background, interests, and role in the podcast.</p>
               </div>
               
@@ -125,10 +125,10 @@ export default function Home() {
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
                   <div className={styles.hostPlaceholder}>
-                    <span>Host 4</span>
+                    <span>Machelle</span>
                   </div>
                 </div>
-                <h3>Host Name</h3>
+                <h3>Machelle</h3>
                 <p>Host bio goes here. Replace this text with the host's summary. This section should include a brief description of the host, their background, interests, and role in the podcast.</p>
               </div>
             </div>
