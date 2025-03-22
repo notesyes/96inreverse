@@ -96,7 +96,7 @@ export default function Home() {
                   </div>
                 </div>
                 <h3>Peter</h3>
-                <p>Host bio goes here. Replace this text with the host's summary. This section should include a brief description of the host, their background, interests, and role in the podcast.</p>
+                <p>Hey everyone, I'm Peter! Originally from the Dominican Republic, I'm a big fan of dancing, music, and all things tech. I've spent years working in different companies, but now I'm excited to do my own thing with this podcast. I'm starting this with the people I love, and we're just going to share life as it happens – the good, the bad, and the funny. Come along for the ride – it's going to be a blast!</p>
               </div>
               
               {/* HOST 2 */}
