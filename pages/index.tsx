@@ -97,18 +97,11 @@ export default function Home() {
                 <div className={styles.episodeNumber}>01</div>
                 <h3>Modern Relationships & Technology</h3>
                 <p>
-                  In this episode, Peter and Cedrick discuss various topics
-                  ranging from the unusual weather patterns and global warming
-                  to conspiracy theories surrounding current events. They delve
-                  into the complexities of online dating, including the rise of
-                  ghosting and the emotional impact it has on individuals. The
-                  conversation shifts to the superficial nature of modern
-                  relationships and a nostalgic longing for genuine connections.
-                  They also explore the evolution of dating apps, the impact of
-                  technology on relationships, and the decline of retail stores
-                  in the face of online shopping. The episode concludes with a
-                  discussion about electric vehicles, their performance, and the
-                  importance of maintaining cleanliness in cars.
+                  Peter & Cedrick discuss climate change, conspiracy theories, &
+                  modern relationships—specifically dating app struggles & lost
+                  genuine connection. They lament retail decline, explore EV
+                  benefits, and emphasize car cleanliness, reflecting on
+                  technology's impact on life & connection.
                 </p>
                 <a href="#" className={styles.listenBtn}>
                   Listen Now
@@ -120,19 +113,12 @@ export default function Home() {
                 <div className={styles.episodeNumber}>02</div>
                 <h3>Young Relationships & Personal Growth</h3>
                 <p>
-                  In this episode, Peter and Cedrick welcome guests Kayden and
-                  Yesli to discuss the dynamics of young relationships. They
-                  explore how Kayden and Yesli met, the challenges of dating in
-                  high school, and the unique aspects of their relationship,
-                  including age differences and personal experiences. The
-                  conversation also touches on the importance of emotional
-                  connections versus physical attraction in relationships,
-                  providing insights into the complexities of love and dating at
-                  a young age. In this conversation, the speakers delve into the
-                  complexities of relationships, discussing personal experiences
-                  and lessons learned. They explore themes of self-worth, the
-                  importance of understanding backgrounds, and the value of
-                  women in society.
+                  This episode features Kayden and Yesli discussing young
+                  relationships, their meeting, and high school dating
+                  challenges. They explore emotional versus physical attraction,
+                  the importance of self-worth and understanding backgrounds,
+                  and supporting each other through struggles. Prioritizing
+                  self-love and personal growth is key to any relationship.
                 </p>
                 <a href="#" className={styles.listenBtn}>
                   Listen Now
