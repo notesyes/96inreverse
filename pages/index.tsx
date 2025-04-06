@@ -31,7 +31,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <img src="no_padding (2).png" className={styles.imageLogo} />
+            <img src="noBgColor (8).png" className={styles.imageLogo} />
           </div>
           <nav>
             <ul>
@@ -59,7 +59,7 @@ export default function Home() {
             <div className={styles.heroContent}>
               <div className={styles.heroLogo}>
                 <img
-                  src="/no_padding (2).png"
+                  src="/noBgColor (8).png"
                   alt="96 in Reverse Logo"
                   className={styles.heroImageLogo}
                 />
@@ -282,7 +282,7 @@ export default function Home() {
           <div className={styles.footerContent}>
             <div className={styles.footerLogo}>
               <img
-                src="/no_padding (2).png"
+                src="/noBgColor (8).png"
                 alt="96 in Reverse Logo"
                 className={styles.footerImageLogo}
               />
