@@ -150,9 +150,11 @@ export default function Home() {
               {/* HOST 1 */}
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
-                  <div className={styles.hostPlaceholder}>
-                    <span>Peter</span>
-                  </div>
+                  <img
+                    src="/Peter.PNG"
+                    alt="Peter"
+                    className={styles.hostImg}
+                  />
                 </div>
                 <h3>Peter</h3>
                 <p>
@@ -169,9 +171,11 @@ export default function Home() {
               {/* HOST 2 */}
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
-                  <div className={styles.hostPlaceholder}>
-                    <span>Cedrick</span>
-                  </div>
+                  <img
+                    src="/Cedrick.PNG"
+                    alt="Cedrick"
+                    className={styles.hostImg}
+                  />
                 </div>
                 <h3>Cedrick</h3>
                 <p>
@@ -192,9 +196,7 @@ export default function Home() {
               {/* HOST 3 */}
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
-                  <div className={styles.hostPlaceholder}>
-                    <span>Nate</span>
-                  </div>
+                  <img src="/Nate.PNG" alt="Nate" className={styles.hostImg} />
                 </div>
                 <h3>Nate</h3>
                 <p>
@@ -207,9 +209,11 @@ export default function Home() {
               {/* HOST 4 */}
               <div className={styles.hostProfile}>
                 <div className={styles.hostImage}>
-                  <div className={styles.hostPlaceholder}>
-                    <span>Machelle</span>
-                  </div>
+                  <img
+                    src="/Machelle.PNG"
+                    alt="Machelle"
+                    className={styles.hostImg}
+                  />
                 </div>
                 <h3>Machelle</h3>
                 <p>
