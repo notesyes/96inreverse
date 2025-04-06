@@ -31,11 +31,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.container}>
           <div className={styles.logo}>
-            <img
-              src="/no_padding (2).png"
-              alt="96 in Reverse Logo"
-              className={styles.imageLogo}
-            />
+            <img src="no_padding (2).png" className={styles.imageLogo} />
           </div>
           <nav>
             <ul>
