@@ -1,0 +1,47 @@
+96 in Reverse Podcast Website - Structure Overview
+
+This file provides an overview of the website structure and files.
+
+MAIN FILES:
+- index.html          : Main homepage of the website
+- css/styles.css      : Main stylesheet for the website
+- js/main.js          : JavaScript functionality
+- favicon.ico         : Website favicon (to be created using favicon-generator.html)
+
+IMAGES:
+- images/logo.png     : Podcast logo (to be added by you)
+- images/hosts/       : Directory for host photos
+  - host1.jpg         : Photo for Host 1 (to be added by you)
+  - host2.jpg         : Photo for Host 2 (to be added by you)
+  - host3.jpg         : Photo for Host 3 (to be added by you)
+  - host4.jpg         : Photo for Host 4 (to be added by you)
+
+UTILITY FILES:
+- README.md           : Documentation and instructions
+- .gitignore          : Git configuration file
+- deploy.bat          : Script to deploy the website to GitHub
+
+GENERATOR FILES (not included in production):
+- placeholder-generator.html  : Generates placeholder images for hosts
+- favicon-generator.html      : Generates a simple favicon
+- preview.html               : Allows you to preview the website
+- welcome.html               : Welcome page with links to resources
+- getting-started.html       : Step-by-step guide for setting up the website
+- github-link.html           : Link to the GitHub repository
+- coolify-link.html          : Link to the Coolify dashboard
+- start.html                 : Redirects to the welcome page
+- favicon-placeholder.txt     : Placeholder for favicon
+- images/logo-placeholder.html: Placeholder for logo
+- images/hosts/placeholder.html: Placeholder for host images
+- images/placeholder.txt      : Information about image files
+- website-structure.txt       : This file
+
+GETTING STARTED:
+1. Add your logo as images/logo.png
+2. Add host photos in the images/hosts/ directory
+3. Update host information in index.html
+4. Create a favicon using favicon-generator.html
+5. Preview the website using preview.html
+6. Deploy to GitHub using deploy.bat
+
+For detailed instructions, please refer to the README.md file.

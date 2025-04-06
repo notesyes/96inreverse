@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coolify Dashboard Link</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #252a34;
+            color: #eef1f7;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            color: #f5793b;
+        }
+        .container {
+            background-color: #1a1e25;
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 30px;
+            border: 1px solid rgba(226, 232, 242, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f5793b;
+            color: #eef1f7;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #ff8c4d;
+        }
+        .note {
+            background-color: rgba(245, 121, 59, 0.1);
+            border-left: 4px solid #f5793b;
+            padding: 15px;
+            margin-top: 20px;
+            text-align: left;
+            border-radius: 0 8px 8px 0;
+        }
+        .input-group {
+            margin-top: 20px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #252a34;
+            color: #eef1f7;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Coolify Dashboard</h1>
+        <p>This page helps you access your Coolify dashboard to manage your 96 in Reverse podcast website deployment.</p>
+        
+        <div class="note">
+            <p><strong>Note:</strong> You need to have a Coolify account and have set up your website deployment in Coolify. If you haven't done this yet, please refer to the Coolify documentation for instructions on how to set up your deployment.</p>
+        </div>
+        
+        <div class="input-group">
+            <label for="coolify-url">Enter your Coolify dashboard URL:</label>
+            <input type="text" id="coolify-url" placeholder="https://your-coolify-instance.example.com">
+        </div>
+        
+        <button class="btn" id="go-to-coolify">Go to Coolify Dashboard</button>
+    </div>
+    
+    <script>
+        document.getElementById('go-to-coolify').addEventListener('click', function() {
+            const coolifyUrl = document.getElementById('coolify-url').value.trim();
+            
+            if (coolifyUrl) {
+                // Add https:// if not present
+                let url = coolifyUrl;
+                if (!url.startsWith('http://') && !url.startsWith('https://')) {
+                    url = 'https://' + url;
+                }
+                
+                window.open(url, '_blank');
+            } else {
+                alert('Please enter your Coolify dashboard URL');
+            }
+        });
+    </script>
+</body>
+</html>

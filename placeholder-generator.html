@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>96 in Reverse - Placeholder Image Generator</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #252a34;
+            color: #eef1f7;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #f5793b;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .placeholder {
+            background-color: #1a1e25;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgba(226, 232, 242, 0.1);
+        }
+        .image-container {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto 20px;
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #f5793b;
+        }
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+        .instructions {
+            background-color: #1a1e25;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(226, 232, 242, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f5793b;
+            color: #eef1f7;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #ff8c4d;
+        }
+        code {
+            background-color: #252a34;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>96 in Reverse - Placeholder Image Generator</h1>
+    
+    <div class="instructions">
+        <h2>Instructions</h2>
+        <p>This page generates placeholder images for the 96 in Reverse podcast website. Follow these steps to save the placeholder images:</p>
+        <ol>
+            <li>For each host placeholder below, right-click on the image and select "Save Image As..."</li>
+            <li>Save the images with the following names in the <code>images/hosts/</code> directory:
+                <ul>
+                    <li>Host 1: <code>host1.jpg</code></li>
+                    <li>Host 2: <code>host2.jpg</code></li>
+                    <li>Host 3: <code>host3.jpg</code></li>
+                    <li>Host 4: <code>host4.jpg</code></li>
+                </ul>
+            </li>
+            <li>Later, you can replace these placeholders with actual photos of the hosts</li>
+        </ol>
+        <p>For the logo, you can use the logo image you provided or create a new one.</p>
+    </div>
+    
+    <div class="container">
+        <div class="placeholder">
+            <h2>Host 1</h2>
+            <div class="image-container">
+                <canvas id="host1" width="250" height="250"></canvas>
+            </div>
+            <a href="#" class="btn" id="download1">Download Host 1 Image</a>
+        </div>
+        
+        <div class="placeholder">
+            <h2>Host 2</h2>
+            <div class="image-container">
+                <canvas id="host2" width="250" height="250"></canvas>
+            </div>
+            <a href="#" class="btn" id="download2">Download Host 2 Image</a>
+        </div>
+        
+        <div class="placeholder">
+            <h2>Host 3</h2>
+            <div class="image-container">
+                <canvas id="host3" width="250" height="250"></canvas>
+            </div>
+            <a href="#" class="btn" id="download3">Download Host 3 Image</a>
+        </div>
+        
+        <div class="placeholder">
+            <h2>Host 4</h2>
+            <div class="image-container">
+                <canvas id="host4" width="250" height="250"></canvas>
+            </div>
+            <a href="#" class="btn" id="download4">Download Host 4 Image</a>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Generate placeholder images
+            generatePlaceholder('host1', '#f5793b', '#252a34', '1');
+            generatePlaceholder('host2', '#f5793b', '#252a34', '2');
+            generatePlaceholder('host3', '#f5793b', '#252a34', '3');
+            generatePlaceholder('host4', '#f5793b', '#252a34', '4');
+            
+            // Set up download buttons
+            setupDownload('download1', 'host1', 'host1.jpg');
+            setupDownload('download2', 'host2', 'host2.jpg');
+            setupDownload('download3', 'host3', 'host3.jpg');
+            setupDownload('download4', 'host4', 'host4.jpg');
+        });
+        
+        function generatePlaceholder(canvasId, primaryColor, bgColor, text) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // Background
+            ctx.fillStyle = bgColor;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            
+            // Circular gradient
+            const gradient = ctx.createRadialGradient(
+                canvas.width / 2, canvas.height / 2, 0,
+                canvas.width / 2, canvas.height / 2, canvas.width / 2
+            );
+            gradient.addColorStop(0, primaryColor);
+            gradient.addColorStop(1, bgColor);
+            
+            ctx.fillStyle = gradient;
+            ctx.globalAlpha = 0.2;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.globalAlpha = 1;
+            
+            // Text
+            ctx.fillStyle = primaryColor;
+            ctx.font = 'bold 100px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+            
+            // "HOST" text
+            ctx.fillStyle = '#eef1f7';
+            ctx.font = 'bold 30px Arial';
+            ctx.fillText('HOST', canvas.width / 2, canvas.height / 2 - 60);
+        }
+        
+        function setupDownload(buttonId, canvasId, filename) {
+            const downloadBtn = document.getElementById(buttonId);
+            const canvas = document.getElementById(canvasId);
+            
+            downloadBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const link = document.createElement('a');
+                link.download = filename;
+                link.href = canvas.toDataURL('image/jpeg', 0.8);
+                link.click();
+            });
+        }
+    </script>
+</body>
+</html>

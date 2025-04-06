@@ -1,0 +1,13 @@
+96 in Reverse Podcast - Favicon Placeholder
+
+This file is a placeholder for the favicon.ico file that should be placed in the root directory of your website.
+
+To create a favicon:
+1. Open the favicon-generator.html file in your browser
+2. Click the "Download Favicon" button
+3. Save the file as "favicon.ico" in the root directory (same location as index.html)
+4. Delete this placeholder text file
+
+Alternatively, you can create a custom favicon from your logo using an online favicon generator service.
+
+A favicon is the small icon that appears in browser tabs and bookmarks for your website.

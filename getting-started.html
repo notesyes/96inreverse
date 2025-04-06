@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>96 in Reverse - Getting Started</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #252a34;
+            color: #eef1f7;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #f5793b;
+        }
+        .container {
+            background-color: #1a1e25;
+            border-radius: 8px;
+            padding: 30px;
+            margin-top: 30px;
+            border: 1px solid rgba(226, 232, 242, 0.1);
+        }
+        .step {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(226, 232, 242, 0.1);
+        }
+        .step:last-child {
+            border-bottom: none;
+        }
+        .step-number {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            background-color: #f5793b;
+            color: #252a34;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        code {
+            background-color: #252a34;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        pre {
+            background-color: #252a34;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: monospace;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f5793b;
+            color: #eef1f7;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #ff8c4d;
+        }
+        .file-list {
+            background-color: #252a34;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .file-list ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        .file-list li {
+            margin-bottom: 5px;
+        }
+        .file-list li::before {
+            content: "📄 ";
+        }
+        .file-list li.folder::before {
+            content: "📁 ";
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>96 in Reverse Podcast Website - Getting Started</h1>
+    
+    <div class="container">
+        <div class="step">
+            <h2><span class="step-number">1</span> Website Overview</h2>
+            <p>Welcome to your 96 in Reverse podcast website! This website includes:</p>
+            <ul>
+                <li>A modern, responsive design that works on all devices</li>
+                <li>Embedded RSS.com podcast player</li>
+                <li>Episode listings with descriptions</li>
+                <li>Host profiles section</li>
+                <li>About the show section</li>
+                <li>Social media links</li>
+            </ul>
+            <p>The website uses the following color scheme:</p>
+            <ul>
+                <li><code>#252a34</code> - Dark blue-gray (primary background)</li>
+                <li><code>#e2e8f2</code> - Light blue-gray</li>
+                <li><code>#eef1f7</code> - Very light blue-gray</li>
+                <li><code>#f5793b</code> - Vibrant orange (accent color)</li>
+            </ul>
+            <p>Here's the file structure of your website:</p>
+            <div class="file-list">
+                <ul>
+                    <li>index.html</li>
+                    <li class="folder">css/</li>
+                    <li style="margin-left: 20px">styles.css</li>
+                    <li class="folder">js/</li>
+                    <li style="margin-left: 20px">main.js</li>
+                    <li class="folder">images/</li>
+                    <li style="margin-left: 20px">logo.png (to be added)</li>
+                    <li class="folder" style="margin-left: 20px">hosts/</li>
+                    <li style="margin-left: 40px">host1.jpg (to be added)</li>
+                    <li style="margin-left: 40px">host2.jpg (to be added)</li>
+                    <li style="margin-left: 40px">host3.jpg (to be added)</li>
+                    <li style="margin-left: 40px">host4.jpg (to be added)</li>
+                    <li>favicon.ico (to be created)</li>
+                    <li>README.md</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">2</span> Adding Your Logo</h2>
+            <p>To add your podcast logo:</p>
+            <ol>
+                <li>Prepare your logo image (recommended size: at least 500x500 pixels)</li>
+                <li>Save it as <code>logo.png</code> in the <code>images/</code> directory</li>
+                <li>Make sure the image has a transparent background for best results</li>
+            </ol>
+            <p>You can use the <code>images/logo-placeholder.html</code> file as a reference.</p>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">3</span> Adding Host Photos</h2>
+            <p>To add photos for each host:</p>
+            <ol>
+                <li>Prepare square photos for each host (recommended size: at least 300x300 pixels)</li>
+                <li>Save them in the <code>images/hosts/</code> directory with the following names:
+                    <ul>
+                        <li><code>host1.jpg</code> - First host</li>
+                        <li><code>host2.jpg</code> - Second host</li>
+                        <li><code>host3.jpg</code> - Third host</li>
+                        <li><code>host4.jpg</code> - Fourth host</li>
+                    </ul>
+                </li>
+            </ol>
+            <p>You can use the <code>placeholder-generator.html</code> file to create temporary placeholder images if needed.</p>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">4</span> Updating Host Information</h2>
+            <p>To update the information for each host:</p>
+            <ol>
+                <li>Open <code>index.html</code> in a text editor</li>
+                <li>Locate the "Meet the Hosts" section (around line 100)</li>
+                <li>For each host profile, update:
+                    <ul>
+                        <li>The host name (between <code>&lt;h3&gt;</code> and <code>&lt;/h3&gt;</code> tags)</li>
+                        <li>The host bio (between <code>&lt;p&gt;</code> and <code>&lt;/p&gt;</code> tags)</li>
+                    </ul>
+                </li>
+            </ol>
+            <p>Example:</p>
+            <pre>&lt;!-- HOST 1 --&gt;
+&lt;div class="host-profile"&gt;
+    &lt;div class="host-image"&gt;
+        &lt;img src="images/hosts/host1.jpg" alt="Peter Smith"&gt;
+    &lt;/div&gt;
+    &lt;h3&gt;Peter Smith&lt;/h3&gt;
+    &lt;p&gt;Peter is the founder and lead host of 96 in Reverse. With his background in journalism and passion for storytelling, he brings insightful perspectives to every episode.&lt;/p&gt;
+&lt;/div&gt;</pre>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">5</span> Creating a Favicon</h2>
+            <p>A favicon is the small icon that appears in browser tabs and bookmarks for your website. To create a favicon:</p>
+            <ol>
+                <li>Open the <code>favicon-generator.html</code> file in your browser</li>
+                <li>Click the "Download Favicon" button</li>
+                <li>Save the file as <code>favicon.ico</code> in the root directory (same location as index.html)</li>
+            </ol>
+            <p>Alternatively, you can create a custom favicon from your logo using an online favicon generator service.</p>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">6</span> Previewing Your Website</h2>
+            <p>To preview how your website looks:</p>
+            <ol>
+                <li>Open the <code>preview.html</code> file in your browser</li>
+                <li>This will show you a preview of your website in an iframe</li>
+                <li>You can also click the "Open in New Tab" button to view the website in a full browser tab</li>
+            </ol>
+            <p>Make any necessary adjustments to the content or styling before deploying.</p>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">7</span> Deploying to GitHub and Coolify</h2>
+            <p>When you're ready to deploy your website:</p>
+            <ol>
+                <li>Make sure you have Git installed on your computer</li>
+                <li>Run the <code>deploy.bat</code> script by double-clicking it</li>
+                <li>This will initialize a Git repository, commit your files, and push them to GitHub</li>
+                <li>Coolify will automatically detect the changes and deploy your website</li>
+            </ol>
+            <p>If you encounter any issues during deployment, refer to the README.md file for troubleshooting steps.</p>
+        </div>
+        
+        <div class="step">
+            <h2><span class="step-number">8</span> Making Future Updates</h2>
+            <p>To update your website in the future:</p>
+            <ol>
+                <li>Make your changes to the appropriate files</li>
+                <li>Preview the changes using <code>preview.html</code></li>
+                <li>When satisfied, commit and push your changes to GitHub:
+                    <pre>git add .
+git commit -m "Description of your changes"
+git push</pre>
+                </li>
+                <li>Coolify will automatically deploy the updated website</li>
+            </ol>
+        </div>
+    </div>
+    
+    <div class="nav">
+        <a href="preview.html" class="btn">Preview Website</a>
+        <a href="README.md" class="btn">View Documentation</a>
+        <a href="github-link.html" class="btn">GitHub Repository</a>
+        <a href="coolify-link.html" class="btn">Coolify Dashboard</a>
+    </div>
+</body>
+</html>
