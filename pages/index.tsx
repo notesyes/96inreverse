@@ -32,7 +32,7 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.logo}>
             <img
-              src="/96inreverse.png"
+              src="/no_padding (2).png"
               alt="96 in Reverse Logo"
               className={styles.imageLogo}
             />
@@ -63,7 +63,7 @@ export default function Home() {
             <div className={styles.heroContent}>
               <div className={styles.heroLogo}>
                 <img
-                  src="/96inreverse.png"
+                  src="/no_padding (2).png"
                   alt="96 in Reverse Logo"
                   className={styles.heroImageLogo}
                 />
@@ -286,7 +286,7 @@ export default function Home() {
           <div className={styles.footerContent}>
             <div className={styles.footerLogo}>
               <img
-                src="/96inreverse.png"
+                src="/no_padding (2).png"
                 alt="96 in Reverse Logo"
                 className={styles.footerImageLogo}
               />
