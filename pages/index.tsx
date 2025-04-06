@@ -200,9 +200,11 @@ export default function Home() {
                 </div>
                 <h3>Nate</h3>
                 <p>
-                  Host bio goes here. Replace this text with the host's summary.
-                  This section should include a brief description of the host,
-                  their background, interests, and role in the podcast.
+                  I'm Nate and hail from New York City. I am currently a student
+                  for art therapy and take care of my parents at home as work.
+                  I'm an artist with two degrees in Fine Arts/Studio Art. My
+                  favorite mediums are oil paint and sculpting, but I am trying
+                  my hand at digital art. That's it from me, blessed be.
                 </p>
               </div>
 
