@@ -12,6 +12,11 @@ export default function Home() {
           content="Official website for the 96 in Reverse podcast"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#252a34" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -37,9 +42,6 @@ export default function Home() {
             <ul>
               <li>
                 <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#episodes">Episodes</a>
               </li>
               <li>
                 <a href="#hosts">Hosts</a>
@@ -83,47 +85,6 @@ export default function Home() {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
-            </div>
-          </div>
-        </section>
-
-        {/* Latest Episodes */}
-        <section id="episodes" className={styles.episodes}>
-          <div className={styles.container}>
-            <h2>Latest Episodes</h2>
-            <div className={styles.episodeGrid}>
-              {/* Episode 1 */}
-              <div className={styles.episodeCard}>
-                <div className={styles.episodeNumber}>01</div>
-                <h3>Modern Relationships & Technology</h3>
-                <p>
-                  Peter & Cedrick discuss climate change, conspiracy theories, &
-                  modern relationships—specifically dating app struggles & lost
-                  genuine connection. They lament retail decline, explore EV
-                  benefits, and emphasize car cleanliness, reflecting on
-                  technology's impact on life & connection.
-                </p>
-                <a href="#" className={styles.listenBtn}>
-                  Listen Now
-                </a>
-              </div>
-
-              {/* Episode 2 */}
-              <div className={styles.episodeCard}>
-                <div className={styles.episodeNumber}>02</div>
-                <h3>Young Relationships & Personal Growth</h3>
-                <p>
-                  This episode features Kayden and Yesli discussing young
-                  relationships, their meeting, and high school dating
-                  challenges. They explore emotional versus physical attraction,
-                  the importance of self-worth and understanding backgrounds,
-                  and supporting each other through struggles. Prioritizing
-                  self-love and personal growth is key to any relationship.
-                </p>
-                <a href="#" className={styles.listenBtn}>
-                  Listen Now
-                </a>
-              </div>
             </div>
           </div>
         </section>
